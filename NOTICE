@@ -1,0 +1,33 @@
+dsh-pavement-structural-dynamics
+==================================
+
+This package is a STUDY AID and CRITICAL COMMENTARY derived from the Chinese monograph
+《路面结构动力学》 (Pavement Structural Dynamics), published by 人民交通出版社
+(China Communications Press).
+
+What this package is:
+
+  * a structured paraphrase of the book's arguments, written in our own words, with page
+    references so a reader can check every claim against the printed book;
+  * an ERRATA REGISTER: roughly a hundred transcription defects, internal contradictions and
+    numbering faults found while distilling the book are documented card by card, each with
+    the page and, where possible, a recomputation that demonstrates the defect. This register
+    is the package's own contribution;
+  * a boundary statement: four of the book's eight chapters promise substantially more than
+    they deliver, and the package says so rather than papering over it.
+
+What this package is NOT:
+
+  * it is not the book, and cannot substitute for it. Anyone who needs the book's actual
+    derivations, tables or figures must obtain the book;
+  * it contains no verbatim passages. An automated check against five separate transcriptions
+    of the source found a longest shared run of zero characters across all 59 cards; the only
+    ten-character match anywhere in the package is a chapter title used as a table label, which
+    is registered as a structural exemption;
+  * all formulas are marked unchecked against the printed page, and all numbers are marked as
+    transcription values.
+
+Copyright in the underlying book remains with its authors and publisher. If you are the rights
+holder and object to any part of this package, open an issue and it will be removed.
+
+License: MIT (applies to this package's own text and code, not to the underlying book).

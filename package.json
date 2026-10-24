@@ -1,0 +1,67 @@
+{
+  "name": "dsh-pavement-structural-dynamics",
+  "version": "1.0.0",
+  "description": "An entire Chinese monograph on pavement structural dynamics (8 chapters, 204 pages) distilled into one skill entry: 59 capability cards covering dynamics fundamentals, dynamic material parameters, asphalt pavement response under moving loads, plate-on-elastic-foundation theory, FWD detection and modulus back-calculation, fatigue and fracture, and steel-bridge-deck paving. This is a judgement manual, not a calculator: every card states when NOT to use it, and the package refuses to produce a number the source cannot support. Four of the eight chapters promise more than they deliver (a structural-dynamics chapter mentioning pavement twice, a rigid-pavement chapter with zero mentions of joints or voids, a fatigue chapter with no life calculation at all), and that mismatch is documented as the package's own contribution together with roughly a hundred transcription defects. Ships with a 12-question blind-test log.",
+  "type": "module",
+  "main": "lib/startup.js",
+  "exports": {
+    ".": "./lib/startup.js",
+    "./startup": "./lib/startup.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "skills",
+    "cordis.patch.yml",
+    "README.md",
+    "NOTICE",
+    "LICENSE",
+    "BLIND-TEST-LOG.md",
+    "RELEASE.md",
+    "catalog-entry"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "dsh-skill",
+    "pavement",
+    "structural-dynamics",
+    "dynamic-response",
+    "moving-load",
+    "dynamic-modulus",
+    "master-curve",
+    "damping",
+    "natural-frequency",
+    "plate-on-elastic-foundation",
+    "subgrade-modulus",
+    "deflection-basin",
+    "fwd",
+    "modulus-backcalculation",
+    "void-detection",
+    "fatigue",
+    "fracture",
+    "stress-intensity-factor",
+    "paris-law",
+    "steel-bridge-deck",
+    "orthotropic-deck",
+    "layered-system"
+  ],
+  "author": "Qiujiyuantiantian",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Qiujiyuantiantian/dsh-pavement-structural-dynamics.git"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}

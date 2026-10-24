@@ -1,0 +1,13 @@
+# dsh-pavement-structural-dynamics - DSH bundle patch.
+#
+# Registers the `pavement-structural-dynamics` skill: the whole of 《路面结构动力学》
+# (8 chapters, 59 capability cards) behind ONE entry with a one-level router
+# (question type -> capability card).
+#
+# Must be wrapped in `- insert:` - a bare `- id: ...` row only overrides an
+# existing row's config and is silently ignored for new ids.
+
+- insert:
+    - id: pavement-structural-dynamics-skill
+      name: 'dsh-pavement-structural-dynamics/startup'
+      inject: [skills]
