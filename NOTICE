@@ -1,33 +1,59 @@
 dsh-pavement-structural-dynamics
 ==================================
 
-This package is a STUDY AID and CRITICAL COMMENTARY derived from the Chinese monograph
-《路面结构动力学》 (Pavement Structural Dynamics), published by 人民交通出版社
-(China Communications Press).
+MIT licensed, with an explicit scope carve-out - see LICENSE. The MIT grant covers only the
+material originated by this package's author. It does not cover, and does not purport to
+cover, anything belonging to the source work.
 
-What this package is:
 
-  * a structured paraphrase of the book's arguments, written in our own words, with page
-    references so a reader can check every claim against the printed book;
-  * an ERRATA REGISTER: roughly a hundred transcription defects, internal contradictions and
-    numbering faults found while distilling the book are documented card by card, each with
-    the page and, where possible, a recomputation that demonstrates the defect. This register
-    is the package's own contribution;
-  * a boundary statement: four of the book's eight chapters promise substantially more than
-    they deliver, and the package says so rather than papering over it.
+Source work
+-----------
 
-What this package is NOT:
+    《路面结构动力学》
+    钱振东、张磊、陈磊磊 编著
+    东南大学出版社，2010 年 11 月第 1 版，2010 年 11 月第 1 次印刷
+    ISBN 978-7-5641-2486-1，200 页，315 千字
+    东南大学科技出版基金资助
 
-  * it is not the book, and cannot substitute for it. Anyone who needs the book's actual
-    derivations, tables or figures must obtain the book;
-  * it contains no verbatim passages. An automated check against five separate transcriptions
-    of the source found a longest shared run of zero characters across all 59 cards; the only
-    ten-character match anywhere in the package is a chapter title used as a table label, which
-    is registered as a structural exemption;
+    Chapters distilled: all eight.
+
+
+What this package is
+--------------------
+
+  * a structured paraphrase of the book's arguments, written in this package's own words, with
+    page references so a reader can check every claim against the printed book;
+
+  * an ERRATA REGISTER: the transcription defects, internal contradictions and numbering faults
+    found while distilling the book are documented card by card, each with the page and, where
+    possible, a recomputation that demonstrates the defect. This register is the package's own
+    contribution;
+
+  * a boundary statement: several of the book's chapters promise substantially more than they
+    deliver, and the package says so rather than papering over it.
+
+
+What this package is NOT
+------------------------
+
+  * it is not the book, and cannot substitute for it. Read the book;
+
+  * it contains no verbatim passages. An automated audit against the source transcription found a
+    longest shared run of zero characters across all cards; the few ten-character matches that
+    remain are chapter titles, the book title, and parameter-name pairs used as table labels, all
+    registered as structural exemptions;
+
   * all formulas are marked unchecked against the printed page, and all numbers are marked as
     transcription values.
 
-Copyright in the underlying book remains with its authors and publisher. If you are the rights
-holder and object to any part of this package, open an issue and it will be removed.
+
+Correction note
+---------------
+
+An earlier version of this NOTICE stated that the source work was published by 人民交通出版社.
+That was wrong: 《路面结构动力学》 was published by 东南大学出版社 in 2010. The metadata above was
+read from the book's own copyright page.
+
+Copyright in the underlying book remains with its authors and publisher.
 
 License: MIT (applies to this package's own text and code, not to the underlying book).

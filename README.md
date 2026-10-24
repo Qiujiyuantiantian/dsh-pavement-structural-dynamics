@@ -63,3 +63,10 @@ skills/pavement-structural-dynamics/
 ## License
 
 MIT。见 `LICENSE` 与 `NOTICE`。
+
+## License
+
+**MIT，带范围切除。** MIT 只覆盖本包作者自己写的那部分——六段卡结构、意图路由、术语分组与交叉对照、
+缺陷登记、包代码；**不覆盖原书的任何内容**（著作权属作者与出版社）。
+
+来源作品完整信息见 `NOTICE`。
