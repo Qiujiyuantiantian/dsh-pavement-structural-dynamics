@@ -47,7 +47,7 @@ metadata:
 |---|---|
 | 这本书覆盖不覆盖我要的问题 / 全书怎么读 | `references/overview.md` + `references/capabilities/ch1-book-map-and-promises.md` |
 | 引哪个文献号、哪个数能不能用 | `references/capabilities/ch1-citation-numbers-discipline.md` |
-| 该不该转动力分析 / 车路怎么拆 | `references/capabilities/ch1-dynamics-entry-review.md`、`ch1-vehicle-road-tripartite.md` |
+| 该不该转动力分析 / 车路怎么拆 | `references/capabilities/ch1-dynamics-entry-review.md`、`references/capabilities/ch1-vehicle-road-tripartite.md` |
 | 方程怎么立、自由度怎么数、阻尼怎么反算 | ch2 × 7：`ch2-three-principles`、`ch2-dof-caliber`、`ch2-damping-identification`、`ch2-sdof-frequency-resonance`、`ch2-two-dof-modes`、`ch2-stiffness-flexibility-swap`、`ch2-distributed-mass-rayleigh` |
 | 材料参数怎么定、主曲线怎么用、阻尼从哪来 | ch3 × 10：先读 `ch3-model-param-completeness`、`ch3-damping-from-decay` |
 | 响应怎么算、报告怎么审 | ch4 × 10：先读 `ch4-audit-moving-load-report`、`ch4-before-citing-five-redlines` |
